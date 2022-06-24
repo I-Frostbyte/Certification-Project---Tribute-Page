@@ -1,0 +1,166 @@
+** start of undefined **
+
+<!DOCTYPE html> 
+<hmtl lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="J.R.R. Tolkien Tribute Page" />
+        <title id="title">John Ronald Reuel Tolkien</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+    <div class="wrapper">
+    <main id="main">
+        <div class="lead">
+        <h1>John Ronald Reuel Tolkien</h1>
+        <p> The man who built the Silmarillion</p>
+        </div>
+        <div class="heading" id="img-div">
+            <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" />
+            <figcaption id="img-caption">Tolkien at a library late at night, lighting up a gas pipe</figcaption>
+        </div>
+        <h2>Here's a timeline of J.R.R. Tolkien's life</h2>
+        <div class="timeline" id="tribute-info">
+            <ul>
+                <li><span class="bolder">1892</span> - Birth of John Ronald Reuel Tolkien in Bloemfontein, Orange Free State (now part of South Africa).</li>
+                <li><span class="bolder">1911</span> - Tolkien begins studying at Oxford.</li>
+                <li><span class="bolder">1914</span> - Tolkien writes his first identifiable “Middle-earth” fragment ‘The Voyage of Éarendel the Evening Star’.</li>
+                <li><span class="bolder">1916</span> - Ronald and Edith are married in Warwick.<br />Battle of the Somme begins. Rob Gilson, close friend and member of the T.C.B.S. dies.</li>
+                <li><span class="bolder">1917</span> - Tolkien is inspired by watching Edith dance in a ‘hemlock’ glade near Roos. This is the germ for the meeting of Lúthien and Beren in his legendarium.</li>
+                <li><span class="bolder">1918</span> - The Tolkiens return to Oxford. Tolkien obtains employment with the New English Dictionary [Oxford English Dictionary]. Tolkien probably begins work on the first version of ‘The Music of the Ainur’.</li>
+                <li><span class="bolder">1922</span> - A Middle English Vocabulary is published. Tolkien and E.V. Gordon begin work on their edition of Sir Gawain and the Green Knight.</li>
+                <li><span class="bolder">1925</span> - 	Tolkien and E.V. Gordon’s edition of Sir Gawain and the Green Knight is published by the Clarendon Press.</li>
+                <li><span class="bolder">1930</span> - About this time, Tolkien may have written the first sentence of The Hobbit: “In a hole in the ground there lived a hobbit“.</li>
+                <li><span class="bolder">1937</span> - The Hobbit is published. Because of its success, Stanley Unwin subsequently urges Tolkien to write a sequel, which he begins. This is the germ of The Lord of the Rings.</li>
+                <li><span class="bolder">1954</span> - Publication of The Fellowship of the Ring.<br />Publication of The Two Towers.</li>
+                <li><span class="bolder">1955</span> - Publication of The Return of the King.</li>
+                <li><span class="bolder">1971</span> - Death of Edith Tolkien.</li>
+                <li><span class="bolder">1972</span> - Tolkien is awarded a CBE in the New Year’s honours list.</li>
+                <li><span class="bolder">1973</span> - Death of J.R.R. Tolkien from a stomach ulcer.</li>
+                <li><span class="bolder">1977</span> - Publication of The Silmarillion, edited by Christopher Tolkien.</li>
+            </ul>
+        </div>
+        <div class="quote">
+            <q>It is not the strength of the body that counts,<br />but the strength of the spirit </q>
+            <p>- - J.R.R. Tolkien</p>
+        </div>
+        <footer>
+            <h1>If you have time you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/J._R._R._Tolkien" value="tribute-link" >Wikipedia entry</a>.</h1>
+        </footer>
+    </main>
+    </div>
+    </body>
+</hmtl>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+    background-color: white;
+    padding: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.lead{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+.lead > p {
+    font-size: large;
+}
+
+.heading{
+    text-align: center;
+    background-color: white;
+    /* padding: 10px 10px 10px 0; */
+    margin: 15px;
+    align-items: center;
+}
+
+img {
+    width: 85%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 45px;
+    justify-content: center;
+    display: block;
+    margin: 0% auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* align-items: center; */
+    /* padding: 10px 10px 10px 10px; */
+    /* margin: 10px; */
+}
+
+.heading > figcaption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.timeline {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.timeline > ul {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.timeline > ul > li {
+    padding: 10px;
+    
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.quote {
+    width: 45%;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+}
+
+footer > h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* display: flex; */
+    font-size: large;
+}
+
+footer {
+    width: 80%;
+    /* margin: 0 auto; */
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+** end of undefined **
+
